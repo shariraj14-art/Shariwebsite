@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Shari Designs</title>
+    <meta name="description" content="View our portfolio of web design, branding, and graphic design projects.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header / Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Shari Designs</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="works.html">Works</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="cta-item"><a href="contact.html" class="btn btn-sm">Let's Talk</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header section-padding">
+        <div class="container center">
+            <h1 class="fade-in">Our Work</h1>
+            <p class="fade-in delay-1">Selected projects that made a difference.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio section-padding">
+        <div class="container">
+            <!-- Filter (Visual only for now) -->
+            <div class="portfolio-filter center hidden">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Web</button>
+                <button class="filter-btn">Branding</button>
+                <button class="filter-btn">Print</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Reuse Project Items -->
+                <div class="portfolio-item hidden">
+                    <div class="portfolio-overlay">
+                        <h4>Neon Brand</h4>
+                        <span>Branding</span>
+                    </div>
+                </div>
+                <div class="portfolio-item hidden delay-1">
+                    <div class="portfolio-overlay">
+                        <h4>Tech Startup UI</h4>
+                        <span>Web Design</span>
+                    </div>
+                </div>
+                <div class="portfolio-item hidden delay-2">
+                    <div class="portfolio-overlay">
+                        <h4>Coffee Shop Rebrand</h4>
+                        <span>Identity</span>
+                    </div>
+                </div>
+                <div class="portfolio-item hidden">
+                    <div class="portfolio-overlay">
+                        <h4>Fitness App</h4>
+                        <span>Mobile App</span>
+                    </div>
+                </div>
+                <div class="portfolio-item hidden delay-1">
+                    <div class="portfolio-overlay">
+                        <h4>Eco Store</h4>
+                        <span>E-commerce</span>
+                    </div>
+                </div>
+                <div class="portfolio-item hidden delay-2">
+                    <div class="portfolio-overlay">
+                        <h4>Dark Mode Dashboard</h4>
+                        <span>UI Kit</span>
+                    </div>
+                </div>
+                <!-- New Items -->
+                <div class="portfolio-item hidden">
+                    <div class="portfolio-overlay">
+                        <h4>Travel Blog</h4>
+                        <span>Web Design</span>
+                    </div>
+                </div>
+                <div class="portfolio-item hidden delay-1">
+                    <div class="portfolio-overlay">
+                        <h4>Fintech Logo</h4>
+                        <span>Branding</span>
+                    </div>
+                </div>
+                <div class="portfolio-item hidden delay-2">
+                    <div class="portfolio-overlay">
+                        <h4>Restaurant Menu</h4>
+                        <span>Print</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="center" style="margin-top: 50px;">
+                <a href="contact.html" class="btn btn-primary hidden">Start Your Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">Shari Designs</div>
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Dribbble</a>
+            </div>
+            <p class="copyright">&copy; 2026 Shari Designs. All rights reserved.</p>
+        </div>
+        <div class="gradient-line"></div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
